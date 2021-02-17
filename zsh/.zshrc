@@ -100,3 +100,5 @@ export PATH="$PATH:$JAVA_HOME/bin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+source $HOME/.dotfiles/zsh/plugins.zsh
