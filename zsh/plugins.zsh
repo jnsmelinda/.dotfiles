@@ -1,3 +1,5 @@
+export FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH # homebrew completion hack
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
