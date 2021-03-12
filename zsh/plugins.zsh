@@ -35,6 +35,12 @@ zinit wait lucid light-mode for \
     djui/alias-tips \
     Tarrasch/zsh-bd
 
+export ASDF_DIR='/opt/homebrew/opt/asdf'
+export ASDF_GROOVY_DISABLE_JAVA_HOME_EXPORT=true
+zinit wait lucid light-mode for \
+    pick'asdf.sh' "$ASDF_DIR" \
+    pick'set-java-home.zsh' "$HOME/.asdf/plugins/java"
+
 zinit wait svn lucid light-mode for \
     OMZ::plugins/z \
     OMZ::plugins/gradle \

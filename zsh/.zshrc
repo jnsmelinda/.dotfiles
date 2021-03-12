@@ -74,9 +74,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export JAVA_HOME='/opt/java/jdk-15'
-export PATH="$PATH:$JAVA_HOME/bin"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
