@@ -13,6 +13,7 @@ alias dotfiles="$EDITOR_NOWAIT $HOME/.dotfiles"
 alias la='ls -alh --git'
 alias ls='exa'
 alias cat='bat'
+alias visualvm='/Applications/VisualVM.app/Contents/MacOS/visualvm --jdkhome $JAVA_HOME'
 alias wttr="curl 'https://wttr.in/Bellevue?m'"
 alias wttr+="curl 'https://v2.wttr.in/Bellevue?m'"
 alias moon="curl 'https://wttr.in/Moon'"
