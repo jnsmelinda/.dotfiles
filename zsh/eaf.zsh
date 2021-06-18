@@ -93,13 +93,13 @@ function dns-flush() {
 
 function update() {
     echo 'zsh upgrade...'
-    omz update
+    "$ZSH/tools/upgrade.sh"
     zinit self-update
     zinit update --all
 
     echo 'brew update, upgrade, cleanup...'
     brew update
-    brew upgrade
+    brew upgrade #--greedy
     brew upgrade --cask
     brew cleanup
 
