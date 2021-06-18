@@ -20,7 +20,6 @@ zinit light-mode for \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-patch-dl \
     zinit-zsh/z-a-bin-gem-node
-
 ### End of Zinit's installer chunk
 
 zinit wait lucid light-mode for \
@@ -53,3 +52,5 @@ zinit wait lucid light-mode for \
 zinit lucid light-mode for \
     svn OMZ::plugins/git \
     pick'eaf.zsh' %HOME/.dotfiles/zsh
+
+source $HOME/.dotfiles/zsh/async-prompt.zsh
