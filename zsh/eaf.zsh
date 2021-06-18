@@ -9,6 +9,8 @@ export COPYFILE_DISABLE=1 # so that tar works properly on mac
 export PATH="$PATH:/usr/local/sbin"
 export MANPATH="/usr/local/man:$MANPATH"
 
+export TZ_LIST='US/Eastern,CET'
+
 alias dotfiles="$EDITOR_NOWAIT $HOME/.dotfiles"
 alias la='ls -alh --git'
 alias ls='exa'
